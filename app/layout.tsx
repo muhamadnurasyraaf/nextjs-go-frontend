@@ -1,3 +1,4 @@
+import '@/app/ui/global.css';
 export default function RootLayout({
   children,
 }: {
@@ -5,7 +6,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <h1>my website laa bro</h1>
+        {children}
+        </body>
     </html>
   );
 }
